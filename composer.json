@@ -1,0 +1,22 @@
+{
+    "name": "jawish/bingwallpaper",
+    "type": "library",
+    "description": "Fetches latest wallpaper images from Bing.",
+    "keywords": ["wallpaper", "bing"],
+    "license": "MIT",
+    "authors": [
+    	{
+    		"name": "Jawish Hameed",
+    		"email": "jawish@gmail.com",
+    		"homepage": "http://jawish.org"
+    	}
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Jawish\\BingWallpaper\\": "src"
+    	}
+    }
+}
